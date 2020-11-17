@@ -1,0 +1,13 @@
+package testSelenium;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class Testeo {
+	@Test
+	public void testear(int result) {
+		assertEquals(5, result);
+	}
+	
+}
