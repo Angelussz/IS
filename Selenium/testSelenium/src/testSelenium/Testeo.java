@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Testeo {
 	
-	public String entradaweb() {
+	public int entradaweb() {
 		System.setProperty("webdriver.gecko.driver","D:\\UNSA\\proyectos\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 	      //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
@@ -43,10 +43,10 @@ public class Testeo {
 	      
 	      // Print a Log In message to the screen
 	      System.out.println(" The Result is " + result);
-	      //int res = Integer.parseInt(result);
+	      int res = Integer.parseInt(result);
 	      //Close the Browser.
 	      driver.close();
-	      return result;
+	      return res;
 		
 	}
 	
