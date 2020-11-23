@@ -1,0 +1,17 @@
+package testSelenium;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class firefoxtest {
+
+	@Test
+	public void test() {
+		Testeo test = new Testeo();
+		String salida = (String) test.entradaweb();
+		assertEquals("Please provide two numeric values in any fields below.",salida);
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+D:\UNSA\proyectos\Selenium\.metadata\.plugins\org.eclipse.jdt.core
+3704868966.index
+4224558089.index
+94562623.index
+357739487.index
+2215177263.index
+2711807538.index
+2559169911.index
+1275866231.index
+1988391725.index
+3699995215.index
+3009416205.index
